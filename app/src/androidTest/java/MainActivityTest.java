@@ -31,7 +31,7 @@ public class MainActivityTest {
 
     @Test
     public void testSuccessfulLogin() {
-        // Introducir nombre de usuarioo
+        // Introducir nombre de usuario
         onView(withId(R.id.username)).perform(typeText("correctUser"));
 
         // Introducir contraseña
